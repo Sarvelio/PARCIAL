@@ -1,0 +1,96 @@
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+
+.nav{
+    background:rgb(77, 231, 5);
+}
+
+
+H1{ text-align: center;
+color: rgb(248, 6, 6);}
+.titulo2{ text-align: center;
+    color: rgb(248, 6, 6);}
+body{
+    font-size: 16px; /*1 rem es igual a 10px*/
+    font-family: 'Krub', sans-serif;
+    background-color: darkslategray;
+   
+ }
+
+.navegacion-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.navegacion-principal a{
+    color: var rgb(255, 0, 0);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight:700;
+    padding: 1rem;
+}
+
+@media(min-width: 768px){
+    
+    .navegacion-principal{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+.navegacion-principal a:hover{
+    background-color: var(--primario);
+    color: var(--oscuro);
+
+}
+img{
+    
+    display:block;
+    margin:auto;
+   
+    }
+
+    .formulario{
+        background-color: var(--gris);
+        width: min(60rem, 100%);
+        margin: 0 auto;
+        padding: 2rem;
+        border-radius: 1rem;
+    }
+    .formulario fieldset{
+        border: none;
+    }
+    .formulario legend{
+        text-align: center;
+        font-size: 1.8rem;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 2rem;
+        color:var(--primario);
+    }
+    
+    .campo{
+        margin-bottom: 1rem;
+    }
+    
+    .campo label{
+        color:var(--blanco);
+        font-weight: bold;
+        margin-bottom: 0.5rem;
+        display: block;
+    }
+    
+    .input-text{
+        width: 100%;
+        border: none;
+        padding: 1.5rem;
+        border-radius: 0.5rem;
+    }
+    
+    .footer{
+        text-align: center;
+    }
+    
